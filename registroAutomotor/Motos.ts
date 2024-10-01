@@ -21,6 +21,20 @@ export class Motos {
         return this.patenteMoto;
     }
 
+//set
+ public setmarcaMoto():string {
+        return this.marcaMoto;
+    }
+    
+    public setmodeloMoto():number {
+        return this.modeloMoto;
+    }
+    
+    public setpatenteMoto():number {
+        return this.patenteMoto;
+    }
+
+    /*
 public asignarAuto(marca:string, modelo:number, patente:number):void{
     let motos1 = new Motos ("Harley Davidson",1990,7391);
     let motos2 = new Motos ("Ducati",2005,7139);
@@ -28,5 +42,12 @@ public asignarAuto(marca:string, modelo:number, patente:number):void{
     let motos4 = new Motos ("Honda",2024,9634);
     
    // this.asignarAuto.push(Motos);
+}*/
 }
-}
+
+let motos1 = new Motos ("Harley Davidson",1990,7391);
+let motos2 = new Motos ("Ducati",2005,7139);
+let motos3 = new Motos ("BMW",2003,8520);
+let motos4 = new Motos ("Honda",2024,9634);
+
+let asignarMoto: Motos [] = [motos1,motos2,motos3,motos4];
